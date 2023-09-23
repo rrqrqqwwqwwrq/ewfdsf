@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>언니안녕</title>
+    </head>
+    <body>
+        <h1>여기눌러봐!</h1>
+        <p>깜짝 놀랄만한 것이 있다.</p>
+
+        
+    <!-- 버튼 추가 -->
+    <button id="showMessageButton">메시지 보기</button>
+
+    <!-- 숨겨진 메시지 -->
+    <p id="hiddenMessage" style="display: none;">응~아니야 아무것도 없어~</p>
+
+    <script>
+        // 버튼 클릭 이벤트 처리
+        document.getElementById("showMessageButton").addEventListener("click", function () {
+            // 숨겨진 메시지 보이기
+            document.getElementById("hiddenMessage").style.display = "block";
+        });
+
+    </script>
+    </body>
+    </html>
